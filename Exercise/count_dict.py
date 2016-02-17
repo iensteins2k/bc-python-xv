@@ -17,6 +17,7 @@ def highest_dict(dic):
 		res = len(i)
 		if res > highest:
 			highest = res
-			post = dic.keys(i)
+	return highest
+print highest_dict(mydict)
 
 
