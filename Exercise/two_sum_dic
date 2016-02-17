@@ -1,0 +1,10 @@
+def two_sum(nums, target):
+	dictn = {}
+	for i in range(len(nums)):
+		res =  target - nums[i]
+
+		if res in nums:
+			return [dictn[key], i]
+		else:
+			dictn[nums[i]] = i
+			
